@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="application.obficium.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitude"/>
+
+        <TextView
+            android:id="@+id/latitudeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignStart="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitude"/>
+
+        <TextView
+            android:id="@+id/longitudeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_view_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:text="View in Maps"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/update_location_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:elevation="5dp"
+        android:text="Update Location"
+        android:layout_below="@+id/button_view_map"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_above="@+id/button_stop"
+        android:layout_alignEnd="@+id/get_req_view"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:text="Stop"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button_start"/>
+
+    <TextView
+        android:id="@+id/get_req_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Requests"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/get_req_check_box"
+        android:layout_centerHorizontal="true"/>
+
+    <CheckBox
+        android:id="@+id/get_req_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receive Requests"
+        android:layout_below="@+id/update_location_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+
+</RelativeLayout>

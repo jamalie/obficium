@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "669646329495",
+    "project_id": "obficium"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669646329495:android:f55f43bfc6dea0e1",
+        "android_client_info": {
+          "package_name": "application.obficium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669646329495-5atba1pq8cicipg274gtlepbpvsuqvcr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "application.obficium",
+            "certificate_hash": "9c8c07772b360a9d535387de236c85fd7ac3d6d6"
+          }
+        },
+        {
+          "client_id": "669646329495-f6qqkp5v5l8ga6n94k57hse4amn478j7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcGSbEwrBZ9fjOBt1hiwBM18gORmW4mQw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
